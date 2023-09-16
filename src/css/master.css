@@ -4,9 +4,22 @@
     font-weight: 500;
 }
 
+.content {
+    overflow: hidden;
+}
+
+.text-justify {
+    display: flex;
+    text-align: justify;
+}
+
 .mx-64px {
     margin-left: 64px !important;
     margin-right: 64px !important;
+}
+
+.pl-0 {
+    padding-left: 0px !important;
 }
 
 .mt-20 {
@@ -79,27 +92,48 @@
     color: rgba(130, 10, 209, 1) !important;
 }
 
-
-
-swiper-container {
-    width: 100%;
-    height: 100%;
+.border-475 {
+    border-radius: .475rem;
 }
 
-swiper-slide {
+.bkg-roxo {
+    background-color: rgba(130, 10, 209, 1) !important;
+}
+
+.card-comp {
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
-    align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     padding: 30px;
+    flex-direction: column;
+    height: 195px;
 }
 
-swiper-slide img {
-    display: block;
+.card-obras {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-conteudo {
+    padding: 10px;
+}
+
+.card-imagem {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+}
+
+.card-imagem img {
+    width: 100%;
+    border-radius: .475rem;
+}
+
+.footer {
+    height: 300px;
+    margin-top: 100px;
+}
+
+.footer ul li {
+    list-style: none;
 }
